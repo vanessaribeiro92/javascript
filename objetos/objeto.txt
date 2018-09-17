@@ -1,0 +1,67 @@
+objeto 
+const exemplo = {
+  beatriz: "professora",
+  natalya: "aluna"
+}
+//para acessar a propriedade no console.log
+exemplo.beatriz
+
+exemplo ["beatriz"]
+"professora"
+
+formato JSON = Java Script Object Notation
+
+for ( let i + 0; i < arr.length; i++) {
+
+}
+//of é para array
+for (const item of arr) {
+  console.log(item)
+}
+
+//in para objetos
+
+for (const key in nasa) {
+  console.log(key, nasa[key])
+}
+const multiplicador = 10
+const rect = {
+  "lados": 4,
+  "base":100,
+  "altura": 50,
+  "area": function () {    //metodos do objeto
+    return this.base * this.altura
+  },
+  "scale": function () {
+    return this.base * multiplicador
+  },
+  "eQuadrado": false
+}
+
+chamar função
+rect.area
+
+sempre tem que ter ',' em propriedades
+this = o objeto em questão, o objeto onde eu estou
+
+//vai mostrar todas as chaves do objeto e informação dentro da chave.
+
+function Rect(x, y) {
+  return {
+    lados: 4,
+    base: x,
+    altura: y,
+    area: function () {
+      return this.base* this.altura
+    }
+  }
+}
+
+//construtor
+const rect1 = new Rect(100, 50)
+
+//para o objeto
+tweet ["favorited"] = false
+
+
+
